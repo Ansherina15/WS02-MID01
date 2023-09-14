@@ -5,7 +5,7 @@ html, body{
 }
 
 header{
-    background-color: #276864;
+    background-color: #E4C58B;
     text-align: center;
 }
 
@@ -19,16 +19,16 @@ header img{
 }
 
 @font-face{
-    font-family: 	Fancy;
+    font-family: Squidward;
     src: url(Squidward.ttf);
 }
 
 h1{
     font-family: Squidward;
-    color: white;
+    color: #86B3A1;
     font-size: 70px;
     padding-bottom: 3%;
-    text-shadow: 7px 5px 10px rgb(10, 11, 14);
+    text-shadow: 4px 6px 4px rgb(46, 42, 24);
     
 }
 
@@ -47,18 +47,14 @@ h2{
 }
 
 p{
-    text-align: center;
-    font-size: 20px;
-    padding-right: 8px;
-    padding-left: 8px;
-    color: #2D2D2D;
+    font-size: 18px;
+    color: #020202;
+    padding-inline-start: 1%;
 }
 
 .bullets{
-    font-size: 20px;
-    list-style: none;
-    padding-right: 8px;
-    color: #2D2D2D;
+    font-size: 18px;
+    color: #020202;
 }
 
 img.big-image{
@@ -107,10 +103,12 @@ circle{
 	width: 100px;
 	height: 100px;
 	border-radius: 50%;
+	border: 3px #541212;
 	margin: 10px;
 	overflow: hidden;
 	position: relative;
-	box-shadow: 1px 1px 8px 5px #276864;
+	transition: transform 0.3s;
+	box-shadow: 1px 1px 8px 5px #541212;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -169,7 +167,7 @@ circle{
 footer{
     text-align: center;
     padding: 1px;
-    background-color:#276864 ;
+    background-color:#E4C58B ;
     font-size: 9vh;
         
 }
@@ -179,6 +177,6 @@ footer p{
 }
 
 footer a{
-    color: rgb(238, 227, 227);
+    color: rgb(110, 107, 107);
 
-}
+} 
