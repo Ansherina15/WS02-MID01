@@ -55,7 +55,8 @@ h2{
 p{
     font-size: 18px;
     color: #020202;
-    padding-inline-start: 1%;
+    padding-right: 1%;
+    padding-left: 1%;
 }
 
 .bullets{
