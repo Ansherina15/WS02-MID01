@@ -34,9 +34,10 @@ h1{
 
 .content{
     background-color: #FFFFFF;
-    padding-top: 4vh;
-    margin-top: -62px;
-    padding: -10%;
+    max-width: 900px;
+	margin: 0 auto;
+	padding: 0 20px;
+	font-size: 20px;
 
 }
 
@@ -108,7 +109,7 @@ circle{
 .circle {
 	width: 120px;
 	height: 120px;
-	border-radius: 50%;
+	border-radius: 14%;
 	border: 3px #020202;
 	margin: 25px;
 	overflow: hidden;
