@@ -59,7 +59,7 @@ p{
     padding-inline-start: 1%;
 }
 
-..bullet {
+.bullets{
     font-size: 18px;
     color: #020202;
 }
